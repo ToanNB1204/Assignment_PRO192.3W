@@ -1,0 +1,12 @@
+[2025-12-12 00:49:32.522868100] LOAD_FILE    | File not found, start empty.
+[2025-12-12 00:51:35.019822200] LOAD_FILE    | File not found, start empty.
+[2025-12-12 00:52:36.913508600] LOAD_FILE    | File not found, start empty.
+[2025-12-12 00:53:11.551550100] LOAD_FILE    | File not found, start empty.
+[2025-12-12 00:54:13.107785600] ADD          | Laptop;001;Laptop VivoBook;Asus;3.0E7;5;true;13
+[2025-12-12 00:54:18.497930300] SAVE_FILE    | Saved 1 products.
+[2025-12-12 00:56:26.940278500] LOAD_FILE    | Loaded 4 products.
+[2025-12-12 00:57:34.311327500] LOAD_FILE    | Loaded 4 products.
+[2025-12-12 00:58:31.948315200] LOAD_FILE    | Loaded 4 products.
+[2025-12-12 00:58:49.758061900] LOAD_FILE    | Loaded 4 products.
+[2025-12-12 00:59:08.747871] LOAD_FILE    | Loaded 4 products.
+[2025-12-12 00:59:24.130707100] LOAD_FILE    | Loaded 4 products.
