@@ -1,0 +1,2 @@
+2025-12-16 11:16:24.518 | ID=L002 | Type=Laptop | Name=HP Pavilion | Qty=2 | Origin=36000000.00 | ProdDiscount=3600000.00 | TotalDiscount=3600000.00 | Final=32400000.00
+2025-12-16 11:42:36.411 | ID=L001 | Type=Laptop | Name=Dell XPS 13 | Qty=1 | Origin=25000000.00 | ProdDiscount=2500000.00 | TotalDiscount=3625000.00 | Final=21375000.00

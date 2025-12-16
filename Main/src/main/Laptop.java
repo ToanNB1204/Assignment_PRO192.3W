@@ -38,6 +38,6 @@ public class Laptop extends Product{
     
     @Override
     public String toString(){
-        return super.toString() + String.format(" (warranty=%d months", warrantyMonths);
+        return super.toString() + String.format(" (warranty=%d months)", warrantyMonths);
     }
 }

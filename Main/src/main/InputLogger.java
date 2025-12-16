@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package main;
 
-/**
- *
- * @author btoan
- */
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -21,12 +12,14 @@ public class InputLogger {
     public static void log(String action, String detail) {
         try (PrintWriter pw = new PrintWriter(new FileWriter(LOG_FILE, true))) {
             LocalDateTime now = LocalDateTime.now();
-            pw.printf("[%s] %-12s | %s%n",
+            pw.printf("[%s] %-20s | %s%n",
                     now.toString().replace('T', ' '),
                     action,
                     detail);
         } catch (IOException e) {
-            ConsoleUI.printWarning("Cannot write log: " + e.getMessage());
+            System.err.println("Could not write log: " + e.getMessage());
+        } catch (Exception e) {
+            System.err.println("Unexpected log error: " + e.getMessage());
         }
     }
 
@@ -34,4 +27,3 @@ public class InputLogger {
         log("INFO", message);
     }
 }
-

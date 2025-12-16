@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package main;
 
-/**
- *
- * @author btoan
- */
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -42,7 +33,10 @@ public class SalesHistoryWriter {
             );
         } catch (IOException e) {
             ConsoleUI.printWarning("Cannot write sales history: " + e.getMessage());
+            InputLogger.log("SALES_HISTORY_IO_ERROR", e.getMessage());
+        } catch (Exception e) {
+            ConsoleUI.printWarning("Unexpected error when writing sales history: " + e.getMessage());
+            InputLogger.log("SALES_HISTORY_EXCEPTION", e.toString());
         }
     }
 }
-

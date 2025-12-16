@@ -1,0 +1,8 @@
+Laptop;L001;MacBook Air M2;Apple;2.8E7;5;true;24
+Laptop;L002;Asus TUF Gaming;Asus;2.1E7;5;true;12
+Laptop;L003;HP 245 G9;HP;1.5E7;2;true;12
+Laptop;L004;Acer Aspire 5;Acer;1.6E7;0;false;24
+Phone;P001;iPhone 15;Apple;2.3E7;8;true;true
+Phone;P002;Galaxy S24;Samsung;1.9E7;6;true;true
+Phone;P003;Redmi Note 13;XiaoMi;7000000.0;12;true;false
+Phone;P004;Nokia 105;Nokia;450000.0;15;true;false

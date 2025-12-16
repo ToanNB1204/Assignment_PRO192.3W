@@ -1,25 +1,84 @@
-[2025-12-12 10:48:26.726] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:24:01.635] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:24:57.362] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:25:10.755] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:25:24.772] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:25:32.872] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:25:42.334] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:25:49.916] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:26:43.665] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:27:47.954] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:27:56.989] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:28:43.038] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:28:57.342] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:29:33.204] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:29:44.881] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:29:56.606] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:30:06.128] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:30:19.424] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:30:26.801] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:30:34.867] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:31:05.515] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:32:21.438] LOAD_FILE    | File not found, start empty.
-[2025-12-12 11:33:33.983] LOAD_FILE    | File not found, start empty.
-[2025-12-12 21:22:02.569040300] LOAD_FILE    | File not found, start empty.
-[2025-12-12 21:22:35.516] LOAD_FILE    | File not found, start empty.
+[2025-12-16 10:47:47.549] LOAD_FILE    | File not found, start empty.
+[2025-12-16 10:49:46.423] ADD          | Laptop;L001;Dell XPS 13;Dell;2.5E7;5;true;24
+[2025-12-16 10:50:35.121] ADD          | Laptop;L002;HP Pavilion;HP;1.8E7;5;true;24
+[2025-12-16 10:52:23.090] LOAD_FILE    | Loaded 4 products.
+[2025-12-16 10:54:32.151] SAVE_FILE    | Saved 4 products.
+[2025-12-16 10:54:46.222] LOAD_FILE    | Loaded 4 products.
+[2025-12-16 10:57:33.327] SAVE_FILE    | Saved 4 products.
+[2025-12-16 10:57:36.664] SAVE_FILE    | Saved 4 products.
+[2025-12-16 10:57:41.580] LOAD_FILE    | Loaded 4 products.
+[2025-12-16 10:58:34.577] SAVE_FILE    | Saved 4 products.
+[2025-12-16 10:58:37.210] LOAD_FILE    | Loaded 4 products.
+[2025-12-16 11:00:24.428] LOAD_FILE    | Loaded 4 products.
+[2025-12-16 11:10:18.716] SAVE_FILE    | Saved 4 products.
+[2025-12-16 11:10:24.236] LOAD_FILE            | Loaded 4 products.
+[2025-12-16 11:11:16.656] ADD_FAIL_FORMAT      | For input string: "true"
+[2025-12-16 11:14:49.457] SAVE_FILE            | Saved 4 products.
+[2025-12-16 11:14:52.765] LOAD_FILE            | Loaded 4 products.
+[2025-12-16 11:15:31.710] ADD_FAIL_FORMAT      | field=quantity, value=nam
+[2025-12-16 11:15:58.267] SEARCH               | keyword='hp', type=ALL, min=-1.00, max=-1.00, found=1
+[2025-12-16 11:16:24.520] SELL                 | id=L002, qty=2, total=32400000.00, discount=3600000.00
+[2025-12-16 11:42:16.985] SAVE_FILE            | Saved 4 products.
+[2025-12-16 11:42:20.071] LOAD_FILE            | Loaded 4 products.
+[2025-12-16 11:42:36.414] SELL                 | id=L001, qty=1, origin=25000000.00, prodDiscount=2500000.00, studentDiscount=1125000.00, total=21375000.00, studentId=CE200032
+[2025-12-16 11:47:29.447] ADD_FAIL_TYPE        | field=type, value=0
+[2025-12-16 11:49:01.811] SAVE_FILE            | Saved 4 products.
+[2025-12-16 11:49:06.519] LOAD_FILE            | Loaded 4 products.
+[2025-12-16 11:49:39.477] SAVE_FILE            | Saved 4 products.
+[2025-12-16 11:49:43.430] LOAD_FILE            | Loaded 4 products.
+[2025-12-16 11:49:53.599] EXPORT_INVENTORY     | Exported to inventory_list.txt
+[2025-12-16 11:50:24.260] DELETE_FAIL          | ID= not found
+[2025-12-16 11:50:30.430] DELETE               | Laptop;L001;Dell XPS 13;Dell;2.5E7;4;true;24
+[2025-12-16 11:50:58.375] DELETE               | Laptop;L002;HP Pavilion;HP;1.8E7;0;true;12
+[2025-12-16 11:51:06.584] DELETE               | Phone;P001;iPhone 15;Apple;3.0E7;3;true;true
+[2025-12-16 11:51:14] DELETE               | Phone;P002;Galaxy A55;Samsung;1.0E7;0;false;true
+[2025-12-16 11:52:55.334] ADD                  | Laptop;P001;Asus;aus;10.0;10;true;12
+[2025-12-16 11:53:02.976] DELETE               | Laptop;P001;Asus;aus;10.0;10;true;12
+[2025-12-16 11:53:31.020] SELL_FAIL            | ID=L001 not found
+[2025-12-16 11:54:42.348] LOAD_FILE            | Loaded 4 products.
+[2025-12-16 11:55:27.368] ADD_FAIL             | ID=L001 already exists
+[2025-12-16 11:55:40.341] ADD_FAIL             | ID=L001 already exists
+[2025-12-16 11:55:49.806] DELETE               | Laptop;L001;Dell XPS 13;Dell;2.5E7;4;true;24
+[2025-12-16 11:56:56.353] ADD                  | Laptop;L001;MacBook Air M2;Apple;2.8E7;5;true;24
+[2025-12-16 11:58:01.943] ADD_FAIL             | ID=L002 already exists
+[2025-12-16 11:58:45.282] UPDATE               | Laptop;L002;Asus TUF Gaming;Asus;2.1E7;3;true;24
+[2025-12-16 11:59:36.221] DELETE               | Laptop;L002;Asus TUF Gaming;Asus;2.1E7;3;true;24
+[2025-12-16 11:59:48.836] DELETE               | Laptop;L001;MacBook Air M2;Apple;2.8E7;5;true;24
+[2025-12-16 11:59:55.495] DELETE               | Phone;P001;iPhone 15;Apple;3.0E7;3;true;true
+[2025-12-16 12:00:01.254] DELETE               | Phone;P002;Galaxy A55;Samsung;1.0E7;0;false;true
+[2025-12-16 12:00:07.125] SAVE_FILE            | Saved 0 products.
+[2025-12-16 12:46:21.774] SAVE_FILE            | Saved 0 products.
+[2025-12-16 12:46:35.743] SAVE_FILE            | Saved 0 products.
+[2025-12-16 12:46:40.108] LOAD_FILE            | Loaded 0 products.
+[2025-12-16 12:47:29.157] ADD                  | Laptop;L001;MacBook Air M2;Apple;2.8E7;5;true;24
+[2025-12-16 12:47:56.293] ADD                  | Laptop;L002;Asus TUF Gaming;Asus;2.1E7;5;true;12
+[2025-12-16 12:47:58.544] MENU_CHOICE_FORMAT   | input=L003
+[2025-12-16 12:48:03.807] MENU_CHOICE_FORMAT   | input=HP 245
+[2025-12-16 12:48:06.883] MENU_CHOICE_FORMAT   | input=HP
+[2025-12-16 12:48:46.058] ADD                  | Laptop;L003;HP 245 G9;HP;1.5E7;2;true;12
+[2025-12-16 12:49:08.192] ADD_FAIL_FORMAT      | field=quantity, value=true
+[2025-12-16 12:49:47.641] ADD                  | Phone;P001;iPhone 15;Apple;2.3E7;8;true;true
+[2025-12-16 12:49:58.533] ADD_FAIL_TYPE_FORMAT | field=type, value=P002
+[2025-12-16 12:50:08.812] MENU_CHOICE_FORMAT   | input=Galaxy S24
+[2025-12-16 12:50:39.139] ADD                  | Phone;P002;Galaxy S24;Samsung;1.9E7;6;true;true
+[2025-12-16 12:51:05.306] ADD                  | Phone;P003;Redmi Note 13;XiaoMi;7000000.0;12;true;false
+[2025-12-16 12:51:29.034] ADD                  | Laptop;L004;Acer Aspire 5;Acer;1.6E7;0;false;24
+[2025-12-16 12:51:45.437] ADD_FAIL_FORMAT      | field=quantity, value=true
+[2025-12-16 12:52:14.715] ADD                  | Phone;P004;Nokia 105;Nokia;450000.0;15;true;false
+[2025-12-16 12:52:18.177] SAVE_FILE            | Saved 8 products.
+[2025-12-16 13:32:42.371] LOAD_FILE            | Loaded 8 products.
+[2025-12-16 13:33:03.319] EXPORT_INVENTORY     | Exported to inventory_list.txt
+[2025-12-16 13:36:35.273] UPDATE               | Laptop;L001;MacBook Air M2;Apple;2.8E7;5;true;24
+[2025-12-16 13:36:38.040] SAVE_FILE            | Saved 8 products.
+[2025-12-16 13:36:40.782] LOAD_FILE            | Loaded 8 products.
+[2025-12-16 13:37:29.167] SAVE_FILE            | Saved 8 products.
+[2025-12-16 13:37:31.039] LOAD_FILE            | Loaded 8 products.
+[2025-12-16 13:38:13.289] UPDATE               | Laptop;L001;MacBook Air M2;Apple;2.8E7;5;true;24
+[2025-12-16 13:38:39.155] UPDATE               | Phone;P001;iPhone 15;Apple;2.3E7;8;true;true
+[2025-12-16 13:38:51.750] SELL_FAIL            | ID=P005 not found
+[2025-12-16 13:40:36.113] SAVE_FILE            | Saved 8 products.
+[2025-12-16 13:40:38.431] LOAD_FILE            | Loaded 8 products.
+[2025-12-16 13:41:22.263] SAVE_FILE            | Saved 8 products.
+[2025-12-16 13:41:24.628] LOAD_FILE            | Loaded 8 products.
+[2025-12-16 13:41:35.596] SAVE_FILE            | Saved 8 products.
+[2025-12-16 13:41:37.562] LOAD_FILE            | Loaded 8 products.
